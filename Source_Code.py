@@ -10,6 +10,9 @@ import threading
 import math
 import pygame
 import os
+from flask import Flask
+app = Flask(__name__)
+
 
 t.speed(0)
 current_level = 1
